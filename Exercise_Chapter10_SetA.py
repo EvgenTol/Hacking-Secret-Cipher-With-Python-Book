@@ -50,4 +50,39 @@ if __name__ == "__main__":
 Page: 146
 Set: A
 
+
+1) If you ran this program and it printed the number 7, what would it print the next time you run it?
+
+
+import random
+random.seed(9)
+print(random.randint(1, 10))
+
+1) => 7
+
+2) What does this program print out?
+
+spam = [1, 2, 3]
+eggs = spam
+ham = eggs
+ham[0] = 99
+print(ham == spam)
+
+2) => True
+
+3) What module contains the deepcopy() function?
+
+3) => copy
+
+4) 
+What does this program print out?
+import copy
+spam = [1, 2, 3]
+eggs = copy.deepcopy(spam)
+ham = copy.deepcopy(eggs)
+ham[0] = 99
+print(ham == spam)
+
+4) => False
+
 '''
